@@ -7,26 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2119D3801BF6BB2700E91D6F /* multiple.json in Resources */ = {isa = PBXBuildFile; fileRef = 2119D37E1BF6BB2300E91D6F /* multiple.json */; };
-		2119D3811BF6BB2700E91D6F /* multiple.json in Resources */ = {isa = PBXBuildFile; fileRef = 2119D37E1BF6BB2300E91D6F /* multiple.json */; };
-		215F927D1B33D46C00EDC60F /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = 215F927C1B33D46C00EDC60F /* example.json */; };
-		215F927E1B33D46C00EDC60F /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = 215F927C1B33D46C00EDC60F /* example.json */; };
-		21E548F31BF69E30004855AE /* text.json in Resources */ = {isa = PBXBuildFile; fileRef = 21E548F11BF69E29004855AE /* text.json */; };
-		21E548F41BF69E30004855AE /* text.json in Resources */ = {isa = PBXBuildFile; fileRef = 21E548F11BF69E29004855AE /* text.json */; };
+		2104F5451DC658A20039CA14 /* DVR.h in Headers */ = {isa = PBXBuildFile; fileRef = 3647AF9E1B335D5500EF10D4 /* DVR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2104F5461DC658A60039CA14 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFB81B335E4A00EF10D4 /* Session.swift */; };
+		2104F5471DC658A60039CA14 /* SessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFB91B335E4A00EF10D4 /* SessionDataTask.swift */; };
+		2104F5481DC658A60039CA14 /* SessionDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360F5F721B5C907A001AADD1 /* SessionDownloadTask.swift */; };
+		2104F5491DC658A60039CA14 /* SessionUploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D62641CB1860400E16D11 /* SessionUploadTask.swift */; };
+		2104F54A1DC658A60039CA14 /* Cassette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFB51B335E4A00EF10D4 /* Cassette.swift */; };
+		2104F54B1DC658A60039CA14 /* Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFB61B335E4A00EF10D4 /* Interaction.swift */; };
+		2104F54C1DC658A60039CA14 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFB71B335E4A00EF10D4 /* URLRequest.swift */; };
+		2104F54D1DC658A60039CA14 /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFBF1B33602A00EF10D4 /* URLResponse.swift */; };
+		2104F54E1DC658A60039CA14 /* HTTPURLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFC11B3363C400EF10D4 /* HTTPURLResponse.swift */; };
 		26D1E4181D1C30D500A20B76 /* SessionUploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D62641CB1860400E16D11 /* SessionUploadTask.swift */; };
 		360F5F731B5C907A001AADD1 /* SessionDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360F5F721B5C907A001AADD1 /* SessionDownloadTask.swift */; };
 		360F5F751B5C907A001AADD1 /* SessionDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360F5F721B5C907A001AADD1 /* SessionDownloadTask.swift */; };
 		3647AF9F1B335D5500EF10D4 /* DVR.h in Headers */ = {isa = PBXBuildFile; fileRef = 3647AF9E1B335D5500EF10D4 /* DVR.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3647AFA61B335D5500EF10D4 /* DVR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3647AF9B1B335D5500EF10D4 /* DVR.framework */; };
 		3647AFBA1B335E4A00EF10D4 /* Cassette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFB51B335E4A00EF10D4 /* Cassette.swift */; };
 		3647AFBB1B335E4A00EF10D4 /* Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFB61B335E4A00EF10D4 /* Interaction.swift */; };
 		3647AFBC1B335E4A00EF10D4 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFB71B335E4A00EF10D4 /* URLRequest.swift */; };
 		3647AFBD1B335E4A00EF10D4 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFB81B335E4A00EF10D4 /* Session.swift */; };
 		3647AFBE1B335E4A00EF10D4 /* SessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFB91B335E4A00EF10D4 /* SessionDataTask.swift */; };
 		3647AFC01B33602A00EF10D4 /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFBF1B33602A00EF10D4 /* URLResponse.swift */; };
-		3647AFC21B3363C400EF10D4 /* URLHTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFC11B3363C400EF10D4 /* URLHTTPResponse.swift */; };
-		3647AFCD1B33689000EF10D4 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFCB1B33689000EF10D4 /* SessionTests.swift */; };
-		3690A0851B33AA3C00731222 /* DVR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3690A07B1B33AA3B00731222 /* DVR.framework */; };
+		3647AFC21B3363C400EF10D4 /* HTTPURLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFC11B3363C400EF10D4 /* HTTPURLResponse.swift */; };
 		3690A0921B33AA9400731222 /* DVR.h in Headers */ = {isa = PBXBuildFile; fileRef = 3647AF9E1B335D5500EF10D4 /* DVR.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3690A0931B33AA9400731222 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFB81B335E4A00EF10D4 /* Session.swift */; };
 		3690A0941B33AA9400731222 /* SessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFB91B335E4A00EF10D4 /* SessionDataTask.swift */; };
@@ -34,22 +35,52 @@
 		3690A0961B33AA9400731222 /* Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFB61B335E4A00EF10D4 /* Interaction.swift */; };
 		3690A0971B33AA9400731222 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFB71B335E4A00EF10D4 /* URLRequest.swift */; };
 		3690A0981B33AA9400731222 /* URLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFBF1B33602A00EF10D4 /* URLResponse.swift */; };
-		3690A0991B33AA9400731222 /* URLHTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFC11B3363C400EF10D4 /* URLHTTPResponse.swift */; };
-		3690A0A21B33AA9E00731222 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFCB1B33689000EF10D4 /* SessionTests.swift */; };
-		36BDDB891B6716AB00878665 /* json-example.json in Resources */ = {isa = PBXBuildFile; fileRef = 36BDDB881B6716AB00878665 /* json-example.json */; };
-		36BDDB8A1B6716AB00878665 /* json-example.json in Resources */ = {isa = PBXBuildFile; fileRef = 36BDDB881B6716AB00878665 /* json-example.json */; };
+		3690A0991B33AA9400731222 /* HTTPURLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647AFC11B3363C400EF10D4 /* HTTPURLResponse.swift */; };
 		B19D62651CB1860400E16D11 /* SessionUploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D62641CB1860400E16D11 /* SessionUploadTask.swift */; };
-		B19D62681CB19AA000E16D11 /* testfile.txt in Resources */ = {isa = PBXBuildFile; fileRef = B19D62661CB18EDB00E16D11 /* testfile.txt */; };
-		B19D62691CB19AA200E16D11 /* testfile.txt in Resources */ = {isa = PBXBuildFile; fileRef = B19D62661CB18EDB00E16D11 /* testfile.txt */; };
-		B19D626E1CB1A0DD00E16D11 /* SessionUploadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D626D1CB1A0DD00E16D11 /* SessionUploadTests.swift */; };
-		B19D626F1CB1A0DD00E16D11 /* SessionUploadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D626D1CB1A0DD00E16D11 /* SessionUploadTests.swift */; };
-		B19D62711CB1A27700E16D11 /* upload-data.json in Resources */ = {isa = PBXBuildFile; fileRef = B19D62701CB1A27700E16D11 /* upload-data.json */; };
-		B19D62721CB1A27700E16D11 /* upload-data.json in Resources */ = {isa = PBXBuildFile; fileRef = B19D62701CB1A27700E16D11 /* upload-data.json */; };
-		B19D62771CB1A42600E16D11 /* upload-file.json in Resources */ = {isa = PBXBuildFile; fileRef = B19D62761CB1A42600E16D11 /* upload-file.json */; };
-		B19D62781CB1A42600E16D11 /* upload-file.json in Resources */ = {isa = PBXBuildFile; fileRef = B19D62761CB1A42600E16D11 /* upload-file.json */; };
+		BB946590224BBCEA0004F29B /* json-example.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862971F7D44E200CB2625 /* json-example.json */; };
+		BB946591224BBCEA0004F29B /* multiple.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862951F7D44E200CB2625 /* multiple.json */; };
+		BB946592224BBCEA0004F29B /* testfile.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED7862921F7D44E200CB2625 /* testfile.txt */; };
+		BB946593224BBCEA0004F29B /* text.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862961F7D44E200CB2625 /* text.json */; };
+		BB946594224BBCEA0004F29B /* upload-file.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862931F7D44E200CB2625 /* upload-file.json */; };
+		BB946595224BBCEB0004F29B /* json-example.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862971F7D44E200CB2625 /* json-example.json */; };
+		BB946596224BBCEB0004F29B /* multiple.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862951F7D44E200CB2625 /* multiple.json */; };
+		BB946597224BBCEB0004F29B /* testfile.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED7862921F7D44E200CB2625 /* testfile.txt */; };
+		BB946598224BBCEB0004F29B /* text.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862961F7D44E200CB2625 /* text.json */; };
+		BB946599224BBCEB0004F29B /* upload-file.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862931F7D44E200CB2625 /* upload-file.json */; };
+		BB94659A224BBCEB0004F29B /* json-example.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862971F7D44E200CB2625 /* json-example.json */; };
+		BB94659B224BBCEB0004F29B /* multiple.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862951F7D44E200CB2625 /* multiple.json */; };
+		BB94659C224BBCEB0004F29B /* testfile.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED7862921F7D44E200CB2625 /* testfile.txt */; };
+		BB94659D224BBCEB0004F29B /* text.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862961F7D44E200CB2625 /* text.json */; };
+		BB94659E224BBCEB0004F29B /* upload-file.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862931F7D44E200CB2625 /* upload-file.json */; };
+		BB9465A0224BBD5B0004F29B /* DVR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3690A07B1B33AA3B00731222 /* DVR.framework */; };
+		BB9465A2224BC2620004F29B /* failed-request-example.json in Resources */ = {isa = PBXBuildFile; fileRef = BB9465A1224BC2620004F29B /* failed-request-example.json */; };
+		BB9465A3224BC2620004F29B /* failed-request-example.json in Resources */ = {isa = PBXBuildFile; fileRef = BB9465A1224BC2620004F29B /* failed-request-example.json */; };
+		BB9465A4224BC2620004F29B /* failed-request-example.json in Resources */ = {isa = PBXBuildFile; fileRef = BB9465A1224BC2620004F29B /* failed-request-example.json */; };
+		DB256BA92666AEBB006689A9 /* different-headers.json in Resources */ = {isa = PBXBuildFile; fileRef = DB256BA82666AEBB006689A9 /* different-headers.json */; };
+		DB256BAA2666AEBB006689A9 /* different-headers.json in Resources */ = {isa = PBXBuildFile; fileRef = DB256BA82666AEBB006689A9 /* different-headers.json */; };
+		DB256BAB2666AEBB006689A9 /* different-headers.json in Resources */ = {isa = PBXBuildFile; fileRef = DB256BA82666AEBB006689A9 /* different-headers.json */; };
+		ED7862871F7D42C200CB2625 /* SessionUploadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7862821F7D42B800CB2625 /* SessionUploadTests.swift */; };
+		ED7862881F7D42C200CB2625 /* SessionUploadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7862821F7D42B800CB2625 /* SessionUploadTests.swift */; };
+		ED7862891F7D42C300CB2625 /* SessionUploadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7862821F7D42B800CB2625 /* SessionUploadTests.swift */; };
+		ED78628A1F7D42C700CB2625 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78627F1F7D42B700CB2625 /* SessionTests.swift */; };
+		ED78628B1F7D42C700CB2625 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78627F1F7D42B700CB2625 /* SessionTests.swift */; };
+		ED78628C1F7D42C800CB2625 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78627F1F7D42B700CB2625 /* SessionTests.swift */; };
+		ED78629F1F7D44EA00CB2625 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862911F7D44E200CB2625 /* example.json */; };
+		ED7862A41F7D44EA00CB2625 /* upload-data.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862941F7D44E200CB2625 /* upload-data.json */; };
+		ED7862A61F7D44EB00CB2625 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862911F7D44E200CB2625 /* example.json */; };
+		ED7862AB1F7D44EB00CB2625 /* upload-data.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862941F7D44E200CB2625 /* upload-data.json */; };
+		ED7862AD1F7D44EB00CB2625 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862911F7D44E200CB2625 /* example.json */; };
+		ED7862B21F7D44EB00CB2625 /* upload-data.json in Resources */ = {isa = PBXBuildFile; fileRef = ED7862941F7D44E200CB2625 /* upload-data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2104F5381DC658590039CA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3647AF921B335D5500EF10D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2104F52D1DC658580039CA14;
+			remoteInfo = "DVR-tvOS";
+		};
 		3647AFA71B335D5500EF10D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3647AF921B335D5500EF10D4 /* Project object */;
@@ -67,9 +98,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2119D37E1BF6BB2300E91D6F /* multiple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = multiple.json; sourceTree = "<group>"; };
-		215F927C1B33D46C00EDC60F /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
-		21E548F11BF69E29004855AE /* text.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = text.json; sourceTree = "<group>"; };
+		2104F52E1DC658580039CA14 /* DVR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DVR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2104F5361DC658590039CA14 /* DVRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		360F5F721B5C907A001AADD1 /* SessionDownloadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDownloadTask.swift; sourceTree = "<group>"; };
 		3647AF9B1B335D5500EF10D4 /* DVR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DVR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3647AF9E1B335D5500EF10D4 /* DVR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVR.h; sourceTree = "<group>"; };
@@ -80,21 +110,40 @@
 		3647AFB81B335E4A00EF10D4 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		3647AFB91B335E4A00EF10D4 /* SessionDataTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDataTask.swift; sourceTree = "<group>"; };
 		3647AFBF1B33602A00EF10D4 /* URLResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLResponse.swift; sourceTree = "<group>"; };
-		3647AFC11B3363C400EF10D4 /* URLHTTPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLHTTPResponse.swift; sourceTree = "<group>"; };
+		3647AFC11B3363C400EF10D4 /* HTTPURLResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPURLResponse.swift; sourceTree = "<group>"; };
 		3647AFC81B33688A00EF10D4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3647AFCB1B33689000EF10D4 /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
-		3647AFCC1B33689000EF10D4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3690A07B1B33AA3B00731222 /* DVR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DVR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3690A0841B33AA3C00731222 /* DVRTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DVRTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		36BDDB881B6716AB00878665 /* json-example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "json-example.json"; sourceTree = "<group>"; };
+		3690A0841B33AA3C00731222 /* DVRTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DVRTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19D62641CB1860400E16D11 /* SessionUploadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionUploadTask.swift; sourceTree = "<group>"; };
-		B19D62661CB18EDB00E16D11 /* testfile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testfile.txt; sourceTree = "<group>"; };
-		B19D626D1CB1A0DD00E16D11 /* SessionUploadTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionUploadTests.swift; sourceTree = "<group>"; };
-		B19D62701CB1A27700E16D11 /* upload-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "upload-data.json"; sourceTree = "<group>"; };
-		B19D62761CB1A42600E16D11 /* upload-file.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "upload-file.json"; sourceTree = "<group>"; };
+		BB9465A1224BC2620004F29B /* failed-request-example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "failed-request-example.json"; sourceTree = "<group>"; };
+		DB256BA82666AEBB006689A9 /* different-headers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "different-headers.json"; sourceTree = "<group>"; };
+		ED78627F1F7D42B700CB2625 /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
+		ED7862811F7D42B800CB2625 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7862821F7D42B800CB2625 /* SessionUploadTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionUploadTests.swift; sourceTree = "<group>"; };
+		ED7862911F7D44E200CB2625 /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
+		ED7862921F7D44E200CB2625 /* testfile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testfile.txt; sourceTree = "<group>"; };
+		ED7862931F7D44E200CB2625 /* upload-file.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "upload-file.json"; sourceTree = "<group>"; };
+		ED7862941F7D44E200CB2625 /* upload-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "upload-data.json"; sourceTree = "<group>"; };
+		ED7862951F7D44E200CB2625 /* multiple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = multiple.json; sourceTree = "<group>"; };
+		ED7862961F7D44E200CB2625 /* text.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = text.json; sourceTree = "<group>"; };
+		ED7862971F7D44E200CB2625 /* json-example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "json-example.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2104F52A1DC658580039CA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2104F5331DC658590039CA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3647AF971B335D5500EF10D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,7 +155,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3647AFA61B335D5500EF10D4 /* DVR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3690A0851B33AA3C00731222 /* DVR.framework in Frameworks */,
+				BB9465A0224BBD5B0004F29B /* DVR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,8 +179,10 @@
 		3647AF911B335D5500EF10D4 = {
 			isa = PBXGroup;
 			children = (
-				3647AF9D1B335D5500EF10D4 /* DVR */,
+				ED78627B1F7D41DE00CB2625 /* Sources */,
+				ED78627D1F7D427800CB2625 /* Tests */,
 				3647AF9C1B335D5500EF10D4 /* Products */,
+				BB94659F224BBD5B0004F29B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,7 +192,9 @@
 				3647AF9B1B335D5500EF10D4 /* DVR.framework */,
 				3647AFA51B335D5500EF10D4 /* DVRTests-iOS.xctest */,
 				3690A07B1B33AA3B00731222 /* DVR.framework */,
-				3690A0841B33AA3C00731222 /* DVRTests-OSX.xctest */,
+				3690A0841B33AA3C00731222 /* DVRTests-macOS.xctest */,
+				2104F52E1DC658580039CA14 /* DVR.framework */,
+				2104F5361DC658590039CA14 /* DVRTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,9 +211,8 @@
 				3647AFB61B335E4A00EF10D4 /* Interaction.swift */,
 				3647AFB71B335E4A00EF10D4 /* URLRequest.swift */,
 				3647AFBF1B33602A00EF10D4 /* URLResponse.swift */,
-				3647AFC11B3363C400EF10D4 /* URLHTTPResponse.swift */,
+				3647AFC11B3363C400EF10D4 /* HTTPURLResponse.swift */,
 				3647AFC71B33688A00EF10D4 /* Resources */,
-				3647AFCA1B33689000EF10D4 /* Tests */,
 			);
 			path = DVR;
 			sourceTree = "<group>";
@@ -174,28 +225,52 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		3647AFCA1B33689000EF10D4 /* Tests */ = {
+		BB94659F224BBD5B0004F29B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3647AFCB1B33689000EF10D4 /* SessionTests.swift */,
-				3647AFCF1B33693F00EF10D4 /* Fixtures */,
-				3647AFCC1B33689000EF10D4 /* Info.plist */,
-				B19D626D1CB1A0DD00E16D11 /* SessionUploadTests.swift */,
 			);
-			name = Tests;
-			path = DVR/Tests;
-			sourceTree = SOURCE_ROOT;
+			name = Frameworks;
+			sourceTree = "<group>";
 		};
-		3647AFCF1B33693F00EF10D4 /* Fixtures */ = {
+		ED78627B1F7D41DE00CB2625 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				36BDDB881B6716AB00878665 /* json-example.json */,
-				215F927C1B33D46C00EDC60F /* example.json */,
-				21E548F11BF69E29004855AE /* text.json */,
-				2119D37E1BF6BB2300E91D6F /* multiple.json */,
-				B19D62701CB1A27700E16D11 /* upload-data.json */,
-				B19D62761CB1A42600E16D11 /* upload-file.json */,
-				B19D62661CB18EDB00E16D11 /* testfile.txt */,
+				3647AF9D1B335D5500EF10D4 /* DVR */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		ED78627D1F7D427800CB2625 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED78627E1F7D42A100CB2625 /* DVRTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		ED78627E1F7D42A100CB2625 /* DVRTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7862901F7D44D100CB2625 /* Fixtures */,
+				ED7862811F7D42B800CB2625 /* Info.plist */,
+				ED78627F1F7D42B700CB2625 /* SessionTests.swift */,
+				ED7862821F7D42B800CB2625 /* SessionUploadTests.swift */,
+			);
+			path = DVRTests;
+			sourceTree = "<group>";
+		};
+		ED7862901F7D44D100CB2625 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				ED7862911F7D44E200CB2625 /* example.json */,
+				DB256BA82666AEBB006689A9 /* different-headers.json */,
+				BB9465A1224BC2620004F29B /* failed-request-example.json */,
+				ED7862971F7D44E200CB2625 /* json-example.json */,
+				ED7862951F7D44E200CB2625 /* multiple.json */,
+				ED7862921F7D44E200CB2625 /* testfile.txt */,
+				ED7862961F7D44E200CB2625 /* text.json */,
+				ED7862941F7D44E200CB2625 /* upload-data.json */,
+				ED7862931F7D44E200CB2625 /* upload-file.json */,
 			);
 			path = Fixtures;
 			sourceTree = "<group>";
@@ -203,6 +278,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2104F52B1DC658580039CA14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2104F5451DC658A20039CA14 /* DVR.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3647AF981B335D5500EF10D4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,6 +305,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2104F52D1DC658580039CA14 /* DVR-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2104F53F1DC658590039CA14 /* Build configuration list for PBXNativeTarget "DVR-tvOS" */;
+			buildPhases = (
+				2104F5291DC658580039CA14 /* Sources */,
+				2104F52A1DC658580039CA14 /* Frameworks */,
+				2104F52B1DC658580039CA14 /* Headers */,
+				2104F52C1DC658580039CA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DVR-tvOS";
+			productName = "DVR-tvOS";
+			productReference = 2104F52E1DC658580039CA14 /* DVR.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2104F5351DC658590039CA14 /* DVRTests-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2104F5421DC658590039CA14 /* Build configuration list for PBXNativeTarget "DVRTests-tvOS" */;
+			buildPhases = (
+				2104F5321DC658590039CA14 /* Sources */,
+				2104F5331DC658590039CA14 /* Frameworks */,
+				2104F5341DC658590039CA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2104F5391DC658590039CA14 /* PBXTargetDependency */,
+			);
+			name = "DVRTests-tvOS";
+			productName = "DVR-tvOSTests";
+			productReference = 2104F5361DC658590039CA14 /* DVRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3647AF9A1B335D5500EF10D4 /* DVR-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3647AFAF1B335D5500EF10D4 /* Build configuration list for PBXNativeTarget "DVR-iOS" */;
@@ -258,9 +377,9 @@
 			productReference = 3647AFA51B335D5500EF10D4 /* DVRTests-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3690A07A1B33AA3B00731222 /* DVR-OSX */ = {
+		3690A07A1B33AA3B00731222 /* DVR-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3690A08C1B33AA3C00731222 /* Build configuration list for PBXNativeTarget "DVR-OSX" */;
+			buildConfigurationList = 3690A08C1B33AA3C00731222 /* Build configuration list for PBXNativeTarget "DVR-macOS" */;
 			buildPhases = (
 				3690A0761B33AA3B00731222 /* Sources */,
 				3690A0771B33AA3B00731222 /* Frameworks */,
@@ -271,14 +390,14 @@
 			);
 			dependencies = (
 			);
-			name = "DVR-OSX";
+			name = "DVR-macOS";
 			productName = "DVR-OSX";
 			productReference = 3690A07B1B33AA3B00731222 /* DVR.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3690A0831B33AA3C00731222 /* DVRTests-OSX */ = {
+		3690A0831B33AA3C00731222 /* DVRTests-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3690A08F1B33AA3C00731222 /* Build configuration list for PBXNativeTarget "DVRTests-OSX" */;
+			buildConfigurationList = 3690A08F1B33AA3C00731222 /* Build configuration list for PBXNativeTarget "DVRTests-macOS" */;
 			buildPhases = (
 				3690A0801B33AA3C00731222 /* Sources */,
 				3690A0811B33AA3C00731222 /* Frameworks */,
@@ -289,9 +408,9 @@
 			dependencies = (
 				3690A0871B33AA3C00731222 /* PBXTargetDependency */,
 			);
-			name = "DVRTests-OSX";
+			name = "DVRTests-macOS";
 			productName = "DVR-OSXTests";
-			productReference = 3690A0841B33AA3C00731222 /* DVRTests-OSX.xctest */;
+			productReference = 3690A0841B33AA3C00731222 /* DVRTests-macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -300,30 +419,45 @@
 		3647AF921B335D5500EF10D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Venmo;
 				TargetAttributes = {
+					2104F52D1DC658580039CA14 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					2104F5351DC658590039CA14 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
 					3647AF9A1B335D5500EF10D4 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 1020;
 					};
 					3647AFA41B335D5500EF10D4 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 1020;
 					};
 					3690A07A1B33AA3B00731222 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 1020;
 					};
 					3690A0831B33AA3C00731222 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
 			buildConfigurationList = 3647AF951B335D5500EF10D4 /* Build configuration list for PBXProject "DVR" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 3647AF911B335D5500EF10D4;
 			productRefGroup = 3647AF9C1B335D5500EF10D4 /* Products */;
@@ -332,13 +466,38 @@
 			targets = (
 				3647AF9A1B335D5500EF10D4 /* DVR-iOS */,
 				3647AFA41B335D5500EF10D4 /* DVRTests-iOS */,
-				3690A07A1B33AA3B00731222 /* DVR-OSX */,
-				3690A0831B33AA3C00731222 /* DVRTests-OSX */,
+				3690A07A1B33AA3B00731222 /* DVR-macOS */,
+				3690A0831B33AA3C00731222 /* DVRTests-macOS */,
+				2104F52D1DC658580039CA14 /* DVR-tvOS */,
+				2104F5351DC658590039CA14 /* DVRTests-tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2104F52C1DC658580039CA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2104F5341DC658590039CA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB94659A224BBCEB0004F29B /* json-example.json in Resources */,
+				BB94659B224BBCEB0004F29B /* multiple.json in Resources */,
+				BB94659D224BBCEB0004F29B /* text.json in Resources */,
+				DB256BAB2666AEBB006689A9 /* different-headers.json in Resources */,
+				BB94659E224BBCEB0004F29B /* upload-file.json in Resources */,
+				ED7862AD1F7D44EB00CB2625 /* example.json in Resources */,
+				BB94659C224BBCEB0004F29B /* testfile.txt in Resources */,
+				ED7862B21F7D44EB00CB2625 /* upload-data.json in Resources */,
+				BB9465A4224BC2620004F29B /* failed-request-example.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3647AF991B335D5500EF10D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,13 +509,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36BDDB891B6716AB00878665 /* json-example.json in Resources */,
-				2119D3801BF6BB2700E91D6F /* multiple.json in Resources */,
-				B19D62711CB1A27700E16D11 /* upload-data.json in Resources */,
-				B19D62771CB1A42600E16D11 /* upload-file.json in Resources */,
-				215F927D1B33D46C00EDC60F /* example.json in Resources */,
-				B19D62681CB19AA000E16D11 /* testfile.txt in Resources */,
-				21E548F31BF69E30004855AE /* text.json in Resources */,
+				BB946590224BBCEA0004F29B /* json-example.json in Resources */,
+				BB946591224BBCEA0004F29B /* multiple.json in Resources */,
+				BB946593224BBCEA0004F29B /* text.json in Resources */,
+				DB256BA92666AEBB006689A9 /* different-headers.json in Resources */,
+				BB946594224BBCEA0004F29B /* upload-file.json in Resources */,
+				ED78629F1F7D44EA00CB2625 /* example.json in Resources */,
+				BB946592224BBCEA0004F29B /* testfile.txt in Resources */,
+				ED7862A41F7D44EA00CB2625 /* upload-data.json in Resources */,
+				BB9465A2224BC2620004F29B /* failed-request-example.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,19 +532,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36BDDB8A1B6716AB00878665 /* json-example.json in Resources */,
-				2119D3811BF6BB2700E91D6F /* multiple.json in Resources */,
-				B19D62721CB1A27700E16D11 /* upload-data.json in Resources */,
-				B19D62781CB1A42600E16D11 /* upload-file.json in Resources */,
-				215F927E1B33D46C00EDC60F /* example.json in Resources */,
-				B19D62691CB19AA200E16D11 /* testfile.txt in Resources */,
-				21E548F41BF69E30004855AE /* text.json in Resources */,
+				BB946595224BBCEB0004F29B /* json-example.json in Resources */,
+				BB946596224BBCEB0004F29B /* multiple.json in Resources */,
+				BB946598224BBCEB0004F29B /* text.json in Resources */,
+				DB256BAA2666AEBB006689A9 /* different-headers.json in Resources */,
+				BB946599224BBCEB0004F29B /* upload-file.json in Resources */,
+				ED7862A61F7D44EB00CB2625 /* example.json in Resources */,
+				BB946597224BBCEB0004F29B /* testfile.txt in Resources */,
+				ED7862AB1F7D44EB00CB2625 /* upload-data.json in Resources */,
+				BB9465A3224BC2620004F29B /* failed-request-example.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2104F5291DC658580039CA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2104F54B1DC658A60039CA14 /* Interaction.swift in Sources */,
+				2104F54C1DC658A60039CA14 /* URLRequest.swift in Sources */,
+				2104F5461DC658A60039CA14 /* Session.swift in Sources */,
+				2104F54A1DC658A60039CA14 /* Cassette.swift in Sources */,
+				2104F5481DC658A60039CA14 /* SessionDownloadTask.swift in Sources */,
+				2104F54E1DC658A60039CA14 /* HTTPURLResponse.swift in Sources */,
+				2104F5491DC658A60039CA14 /* SessionUploadTask.swift in Sources */,
+				2104F54D1DC658A60039CA14 /* URLResponse.swift in Sources */,
+				2104F5471DC658A60039CA14 /* SessionDataTask.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2104F5321DC658590039CA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED78628A1F7D42C700CB2625 /* SessionTests.swift in Sources */,
+				ED7862871F7D42C200CB2625 /* SessionUploadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3647AF961B335D5500EF10D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,7 +584,7 @@
 				3647AFBC1B335E4A00EF10D4 /* URLRequest.swift in Sources */,
 				3647AFBB1B335E4A00EF10D4 /* Interaction.swift in Sources */,
 				3647AFBA1B335E4A00EF10D4 /* Cassette.swift in Sources */,
-				3647AFC21B3363C400EF10D4 /* URLHTTPResponse.swift in Sources */,
+				3647AFC21B3363C400EF10D4 /* HTTPURLResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,8 +592,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3647AFCD1B33689000EF10D4 /* SessionTests.swift in Sources */,
-				B19D626E1CB1A0DD00E16D11 /* SessionUploadTests.swift in Sources */,
+				ED78628C1F7D42C800CB2625 /* SessionTests.swift in Sources */,
+				ED7862891F7D42C300CB2625 /* SessionUploadTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +609,7 @@
 				3690A0931B33AA9400731222 /* Session.swift in Sources */,
 				3690A0941B33AA9400731222 /* SessionDataTask.swift in Sources */,
 				3690A0971B33AA9400731222 /* URLRequest.swift in Sources */,
-				3690A0991B33AA9400731222 /* URLHTTPResponse.swift in Sources */,
+				3690A0991B33AA9400731222 /* HTTPURLResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,14 +617,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3690A0A21B33AA9E00731222 /* SessionTests.swift in Sources */,
-				B19D626F1CB1A0DD00E16D11 /* SessionUploadTests.swift in Sources */,
+				ED78628B1F7D42C700CB2625 /* SessionTests.swift in Sources */,
+				ED7862881F7D42C200CB2625 /* SessionUploadTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2104F5391DC658590039CA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2104F52D1DC658580039CA14 /* DVR-tvOS */;
+			targetProxy = 2104F5381DC658590039CA14 /* PBXContainerItemProxy */;
+		};
 		3647AFA81B335D5500EF10D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3647AF9A1B335D5500EF10D4 /* DVR-iOS */;
@@ -444,28 +637,121 @@
 		};
 		3690A0871B33AA3C00731222 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3690A07A1B33AA3B00731222 /* DVR-OSX */;
+			target = 3690A07A1B33AA3B00731222 /* DVR-macOS */;
 			targetProxy = 3690A0861B33AA3C00731222 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2104F5401DC658590039CA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/DVR/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.venmo.dvr;
+				PRODUCT_NAME = DVR;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		2104F5411DC658590039CA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/DVR/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.venmo.dvr;
+				PRODUCT_NAME = DVR;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		2104F5431DC658590039CA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/DVRTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.venmo.dvr.tests;
+				PRODUCT_NAME = DVRTests;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2104F5441DC658590039CA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/DVRTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.venmo.dvr.tests;
+				PRODUCT_NAME = DVRTests;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		3647AFAD1B335D5500EF10D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -494,9 +780,13 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -505,17 +795,28 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -536,11 +837,15 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -548,16 +853,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/DVR/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/DVR/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.venmo.DVR;
 				PRODUCT_NAME = DVR;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -565,16 +873,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/DVR/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/DVR/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.venmo.DVR;
 				PRODUCT_NAME = DVR;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -582,10 +893,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
-				INFOPLIST_FILE = DVR/Tests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/DVRTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.venmo.DVR.iostests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -593,10 +906,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
-				INFOPLIST_FILE = DVR/Tests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/DVRTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.venmo.DVR.iostests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -609,13 +924,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/DVR/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/DVR/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.venmo.DVR;
 				PRODUCT_NAME = DVR;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -628,13 +944,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/DVR/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/DVR/Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.venmo.DVR;
 				PRODUCT_NAME = DVR;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -643,11 +960,12 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = DVR/Tests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/DVRTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.venmo.DVR.osxtests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -656,17 +974,36 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = DVR/Tests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/DVRTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.venmo.DVR.osxtests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2104F53F1DC658590039CA14 /* Build configuration list for PBXNativeTarget "DVR-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2104F5401DC658590039CA14 /* Debug */,
+				2104F5411DC658590039CA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2104F5421DC658590039CA14 /* Build configuration list for PBXNativeTarget "DVRTests-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2104F5431DC658590039CA14 /* Debug */,
+				2104F5441DC658590039CA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3647AF951B335D5500EF10D4 /* Build configuration list for PBXProject "DVR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -694,7 +1031,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3690A08C1B33AA3C00731222 /* Build configuration list for PBXNativeTarget "DVR-OSX" */ = {
+		3690A08C1B33AA3C00731222 /* Build configuration list for PBXNativeTarget "DVR-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3690A08D1B33AA3C00731222 /* Debug */,
@@ -703,7 +1040,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3690A08F1B33AA3C00731222 /* Build configuration list for PBXNativeTarget "DVRTests-OSX" */ = {
+		3690A08F1B33AA3C00731222 /* Build configuration list for PBXNativeTarget "DVRTests-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3690A0901B33AA3C00731222 /* Debug */,

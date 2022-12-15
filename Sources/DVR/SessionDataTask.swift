@@ -1,35 +1,41 @@
 import Foundation
 
-class SessionDataTask: NSURLSessionDataTask {
+final class SessionDataTask: URLSessionDataTask {
 
     // MARK: - Types
 
-    typealias Completion = (NSData?, NSURLResponse?, NSError?) -> Void
+    typealias Completion = (Data?, Foundation.URLResponse?, NSError?) -> Void
 
 
     // MARK: - Properties
 
     weak var session: Session!
-    let request: NSURLRequest
+    let request: URLRequest
+    let headersToCheck: [String]
     let completion: Completion?
-    private let queue = dispatch_queue_create("com.venmo.DVR.sessionDataTaskQueue", nil)
+    private let queue = DispatchQueue(label: "com.venmo.DVR.sessionDataTaskQueue", attributes: [])
     private var interaction: Interaction?
 
-    override var response: NSURLResponse? {
+    override var response: Foundation.URLResponse? {
         return interaction?.response
+    }
+
+    override var currentRequest: URLRequest? {
+        return request
     }
 
 
     // MARK: - Initializers
 
-    init(session: Session, request: NSURLRequest, completion: (Completion)? = nil) {
+    init(session: Session, request: URLRequest, headersToCheck: [String] = [], completion: (Completion)? = nil) {
         self.session = session
         self.request = request
+        self.headersToCheck = headersToCheck
         self.completion = completion
     }
 
 
-    // MARK: - NSURLSessionTask
+    // MARK: - URLSessionTask
 
     override func cancel() {
         // Don't do anything
@@ -39,11 +45,11 @@ class SessionDataTask: NSURLSessionDataTask {
         let cassette = session.cassette
 
         // Find interaction
-        if let interaction = session.cassette?.interactionForRequest(request) {
+        if let interaction = session.cassette?.interactionForRequest(request, headersToCheck: headersToCheck) {
             self.interaction = interaction
             // Forward completion
             if let completion = completion {
-                dispatch_async(queue) {
+                queue.async {
                     completion(interaction.responseData, interaction.response, nil)
                 }
             }
@@ -52,38 +58,34 @@ class SessionDataTask: NSURLSessionDataTask {
         }
 
         if cassette != nil {
-            print("[DVR] Invalid request. The request was not found in the cassette.")
-            abort()
+            fatalError("[DVR] Invalid request. The request was not found in the cassette.")
         }
 
         // Cassette is missing. Record.
         if session.recordingEnabled == false {
-            print("[DVR] Recording is disabled.")
-            abort()
+            fatalError("[DVR] Recording is disabled.")
         }
 
-        let task = session.backingSession.dataTaskWithRequest(request) { [weak self] data, response, error in
+        let task = session.backingSession.dataTask(with: request, completionHandler: { [weak self] data, response, error in
 
             //Ensure we have a response
             guard let response = response else {
-                print("[DVR] Failed to record because the task returned a nil response.")
-                abort()
+                fatalError("[DVR] Failed to record because the task returned a nil response.")
             }
 
             guard let this = self else {
-                print("[DVR] Something has gone horribly wrong.")
-                abort()
+                fatalError("[DVR] Something has gone horribly wrong.")
             }
 
             // Still call the completion block so the user can chain requests while recording.
-            dispatch_async(this.queue) {
+            this.queue.async {
                 this.completion?(data, response, nil)
             }
 
             // Create interaction
             this.interaction = Interaction(request: this.request, response: response, responseData: data)
             this.session.finishTask(this, interaction: this.interaction!, playback: false)
-        }
+        })
         task.resume()
     }
 }
