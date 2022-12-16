@@ -4,7 +4,7 @@ final class SessionDownloadTask: URLSessionDownloadTask {
 
     // MARK: - Types
 
-    typealias Completion = (URL?, Foundation.URLResponse?, NSError?) -> Void
+    typealias Completion = (URL?, Foundation.URLResponse?, Error?) -> Void
 
     // MARK: - Properties
 

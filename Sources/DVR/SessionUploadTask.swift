@@ -4,7 +4,7 @@ final class SessionUploadTask: URLSessionUploadTask {
 
     // MARK: - Types
 
-    typealias Completion = (Data?, Foundation.URLResponse?, NSError?) -> Void
+    typealias Completion = (Data?, Foundation.URLResponse?, Error?) -> Void
 
     // MARK: - Properties
 

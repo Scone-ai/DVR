@@ -151,7 +151,7 @@ class SessionTests: XCTestCase {
                 self.expectation = expectation
             }
 
-            @objc private func URLSession(session: NSURLSession, task: NSURLSessionTask, didCompleteWithError error: NSError?) {
+            @objc private func URLSession(session: NSURLSession, task: NSURLSessionTask, didCompleteWithError error: Error?) {
                 response = task.response
                 expectation.fulfill()
             }

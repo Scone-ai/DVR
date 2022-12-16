@@ -4,7 +4,7 @@ final class SessionDataTask: URLSessionDataTask {
 
     // MARK: - Types
 
-    typealias Completion = (Data?, Foundation.URLResponse?, NSError?) -> Void
+    typealias Completion = (Data?, Foundation.URLResponse?, Error?) -> Void
 
 
     // MARK: - Properties
@@ -37,8 +37,10 @@ final class SessionDataTask: URLSessionDataTask {
 
     // MARK: - URLSessionTask
 
+    private var cancelled = false
+
     override func cancel() {
-        // Don't do anything
+        cancelled = true
     }
 
     override func resume() {
@@ -70,21 +72,23 @@ final class SessionDataTask: URLSessionDataTask {
 
             //Ensure we have a response
             guard let response = response else {
-                fatalError("[DVR] Failed to record because the task returned a nil response.")
+                return print("[DVR] Failed to record because the task returned a nil response.")
             }
 
-            guard let this = self else {
-                fatalError("[DVR] Something has gone horribly wrong.")
+            guard let self = self else {
+                return print("[DVR] Something has gone horribly wrong. self == nil")
             }
 
             // Still call the completion block so the user can chain requests while recording.
-            this.queue.async {
-                this.completion?(data, response, nil)
+            self.queue.async { [weak self] in
+                if let self = self, !self.cancelled, self.state != .canceling {
+                    self.completion?(data, response, error)
+                }
             }
 
             // Create interaction
-            this.interaction = Interaction(request: this.request, response: response, responseData: data)
-            this.session.finishTask(this, interaction: this.interaction!, playback: false)
+            let interaction = Interaction(request: self.request, response: response, responseData: data)
+            self.session.finishTask(self, interaction: interaction, playback: false)
         })
         task.resume()
     }
